@@ -1,0 +1,81 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; 
+}
+
+nav{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 13vh;
+    background-color:lightblue ;/*lightblue color */
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
+    
+
+.nav-h{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    padding-bottom: 21;
+}
+.nav-h li {
+    list-style: none;
+    text-transform: uppercase;
+    font-size: 23px;
+}
+.nav-h a{
+    color: red;
+    text-decoration: none;
+    letter-spacing: 2px;
+    width: 20%;
+    font-size: 15px;
+}
+a:hover {
+    text-decoration: underline;
+  }
+
+.w3-contentw3-section{
+
+    display: inline;
+}
+
+.main-footer{
+    text-align: center;
+}
+
+.slider-items {
+    display: inline;
+
+}
+
+.w2-center {
+    margin: 90px;
+    text-align: center;
+    width: 100%;
+
+}
+.w3-contentw3-section {
+
+    align-items: center;
+   
+}
+.intro-haiti{
+    display: flex;
+
+
+}
+.haiti-history {
+    padding-left:2rem;
+    margin-top: -1rem;
+}
+.map img{
+    padding-right: 1rem;
+    padding-left: 1rem;
+    height: 350px;
+    width: 500px;
+}
