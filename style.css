@@ -79,3 +79,13 @@ a:hover {
     height: 350px;
     width: 500px;
 }
+.beaches-header{
+
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-family: 'Roboto Condensed',sans-serif;
+    color: rgba(40, 160, 196, 0.37);
+    font-weight: 900;
+    margin-top: 50px;
+}
